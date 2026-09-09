@@ -22,6 +22,13 @@ int main()
     int n = 10;
     int readata[n];
 
+    //defining other output variables
+    float maxread = readata[0];
+    float minread = readata[0];
+    int under20 = 0;
+    int over100 = 0;
+    float sum = 0;
+
     //taking readings using a loop
     cout << "enter " << n << " ultrasonic senor readings in cm: \n";
 
@@ -30,19 +37,8 @@ int main()
     {
         cout << "Reading number " << (p+1) << ": \n";
         cin >> readata[p];
-    }
 
-    //defining other output variables
-    float maxread = readata[0];
-    float minread = readata[0];
-    int under20 = 0;
-    int over100 = 0;
-    float sum = 0;
-    //array processing
-
-    for (int k = 0; k < n; k++)
-    {
-        float pres = readata[k];  //using pres as to keep track of the current variable being read.
+        float pres = readata[p];  //using pres as to keep track of the current variable being read.
 
         if (pres > maxread)
         {
