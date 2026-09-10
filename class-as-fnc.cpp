@@ -1,4 +1,4 @@
-/* using nonparametric funtions, create four fucntions forward backward right left using switch statements and it should go countinously 
+/* using nonparametric and parametric funtions, create four fucntions forward backward right left using switch statements and it should go countinously 
 until exit*/
 // 10sep5
 
