@@ -1,4 +1,6 @@
 /*intro to classes*/
+#include <iostream>
+using namespace std;
 
 class Robot{   // encapsulation
     
@@ -18,7 +20,7 @@ public:
     int getBattery(){
         return battery;
     }
-// this is where the cope of the variable battery ends.
+// this is where the scope of the variable battery ends.
 };
 
 //now outside the class, battery cant be used.
