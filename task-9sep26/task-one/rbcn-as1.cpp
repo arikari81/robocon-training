@@ -1,17 +1,4 @@
-/*
-Assignment 1 — Sensor Data Analysis
 
-A robot takes 10 distance readings using an ultrasonic sensor. Write a C++ program to analyze the readings.
-
-Requirements:
-
-Take 10 readings and store them in an array.
-Find the maximum and minimum readings using if.
-Calculate the average.
-Count readings below 20 cm and above 100 cm.
-Use loops to process the array.
-Do not use built-in functions for maximum/minimum.
-*/
 
 #include <iostream>
 using namespace std;
