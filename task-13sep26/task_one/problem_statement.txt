@@ -1,0 +1,25 @@
+THE PROBLEM STATEMENT GIVEN:
+
+You are designing a simple lighting control system for a robotic vehicle using an Arduino. The system has one potentiometer that controls the brightness of three LEDs — Green, Yellow, and Red.
+
+Your task is to connect the potentiometer and three LEDs to the Arduino and write a program that reads the value of the potentiometer and controls the LEDs according to the following conditions:
+
+When the potentiometer value is between 0 and 340:
+Green LED should be ON.
+Yellow LED should be OFF.
+Red LED should be OFF.
+
+The Green LED should have brightness proportional to the potentiometer value.
+When the potentiometer value is between 341 and 680:
+Green LED should be OFF.
+Yellow LED should be ON.
+Red LED should be OFF.
+
+The Yellow LED should have brightness proportional to the potentiometer value within this range.
+When the potentiometer value is between 681 and 1023:
+Green LED should be OFF.
+Yellow LED should be OFF.
+Red LED should be ON.
+
+The Red LED should have brightness proportional to the potentiometer value within this range.
+Display the potentiometer value and the current LED state on the Serial Monitor.

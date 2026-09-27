@@ -1,23 +1,3 @@
-/*problem statement:
-• When both switches are ON:
-  - Green LED should be ON.
-  - Yellow LED should be OFF.
-  - Red LED should be OFF.
-  - The robot is moving forward.
-
-• When the first switch is OFF and the second switch is ON:
-  - Green LED should be OFF.
-  - Yellow LED should be OFF.
-  - Red LED should be ON.
-  - The robot is moving backward.
-
-• When the second switch is OFF, regardless of the state of the first switch:
-  - Green LED should be OFF.
-  - Yellow LED should be ON.
-  - Red LED should be OFF.
-  - The robot is stopped.
-*/ 
-
 short int sdsw1 = 2;
 short int sdsw2 = 3;
 short int grn1 = 13; 
